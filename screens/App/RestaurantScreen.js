@@ -106,23 +106,27 @@ const styles=StyleSheet.create({
     foodContent:{
         marginVertical:5,
         marginHorizontal:10,
+        color:'black'
     },
     foodTitle:{
         marginVertical:5,
         marginHorizontal:10,
         fontSize:17,
-        fontWeight:'bold'
+        fontWeight:'bold',
+        color:'black'
     },
     itemRating:{paddingHorizontal:3,color:'white'},
     categoryImage:{height:50,width:50},
     foodSubtitle:{
         marginVertical:5,
         marginHorizontal:10,
-        fontSize:12
+        fontSize:12,
+        color:'black'
     },
     foodDuration:{
         marginVertical:5,
         marginHorizontal:10,
+        color:'black'
     },
     offer:{
         backgroundColor:Colors.info,

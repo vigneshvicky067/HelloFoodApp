@@ -69,15 +69,18 @@ const styles = StyleSheet.create({
   foodTitle: {
     fontSize: 26,
     fontWeight: "bold",
+    color:'black'
   },
   foodSubTitle: {
     marginTop: 20,
     fontSize: 14,
+    color:'black'
   },
   foodDescription: {
     marginTop: 20,
     fontSize: 13,
     textAlign: "center",
+    color:'black'
   },
   foodPrice: {
     marginTop: 20,

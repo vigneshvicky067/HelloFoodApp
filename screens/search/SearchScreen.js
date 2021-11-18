@@ -92,7 +92,8 @@ const styles=StyleSheet.create({
     },
     search:{
         marginRight:5,
-        marginTop:14
+        marginTop:14,
+        color:'black'
       },
     searchWrapper:{
         marginTop:50,
@@ -112,7 +113,8 @@ const styles=StyleSheet.create({
     },
     trendingTitle:{
         fontSize:23,
-        fontWeight:'bold'
+        fontWeight:'bold',
+        color:'black'
     },
     trendingSearches:{
             flexDirection: "row",
@@ -121,10 +123,12 @@ const styles=StyleSheet.create({
             width:90,
             borderRadius:10,
             padding:10,
-            margin:10
+            margin:10,
+            color:'black'
     },
     searchText:{
-      marginLeft:10
+      marginLeft:10,
+      color:'black'
 
     }
 })

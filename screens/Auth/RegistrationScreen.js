@@ -83,7 +83,7 @@ return(
 
     <View style={styles.socialMediaLogin}>
         <View style={styles.textContainer}>
-            <Text>Or Signup with</Text>
+            <Text style={{color:'black'}}>Or Signup with</Text>
         </View>
 
             <View style={styles.socialMediaButtons}>
@@ -165,6 +165,7 @@ const styles=StyleSheet.create({
         flex: 1,
         padding: 10,
         marginLeft: 20,
+        color:'black'
       },
       buttonContainer:{
         width:'100%',

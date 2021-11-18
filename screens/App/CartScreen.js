@@ -2,7 +2,7 @@ import React from "react";
 import { View, Text, StyleSheet, Image } from "react-native";
 import { TouchableOpacity } from "react-native-gesture-handler";
 import Colors from "../../constants/Colors";
-import Ionicons from 'react-native-vector-icons/Ionicons';
+
 export function CartScreen({ navigation }) {
   return (
     <View style={styles.screen}>
@@ -10,7 +10,7 @@ export function CartScreen({ navigation }) {
         style={styles.cartImage}
         source={require("../../assets/images/cart.png")}
       />
-      <Text>Your Cart is empty</Text>
+      <Text style={{color:'black'}}>Your Cart is empty</Text>
       <TouchableOpacity
         style={styles.button}
         onPress={() => {

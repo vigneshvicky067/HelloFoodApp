@@ -85,6 +85,7 @@ const styles = StyleSheet.create({
   foodContent: {
     marginVertical: 5,
     marginRight: 80,
+    color:'black'
   },
   foodTitle: {
     marginVertical: 5,
@@ -92,12 +93,14 @@ const styles = StyleSheet.create({
     fontSize: 18,
     marginRight: 30,
     flexWrap: "wrap",
+    color:'black'
   },
   foodSubtitle: {
     marginRight: 40,
     marginVertical: 5,
     fontSize: 12,
     flexWrap: "wrap",
+    color:'black'
   },
   foodDuration: {
     marginVertical: 5,
@@ -122,6 +125,7 @@ const styles = StyleSheet.create({
     elevation: 10,
     backgroundColor: Colors.primary,
     paddingVertical: 10,
+
   
   },
   foodPhoto: {

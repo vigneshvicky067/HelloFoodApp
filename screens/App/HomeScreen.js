@@ -260,7 +260,7 @@ const styles = StyleSheet.create({
   },
   popularTopText: {
     marginLeft: 10,
-
+    color:'black',
     fontSize: 14,
   },
   popularTitlesWrapper: {

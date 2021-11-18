@@ -64,7 +64,7 @@ return(
               <Text style={styles.headerText}>Are u Ready to eat..?</Text>
               </View>
                   <View style={styles.loginInput}>
-                      <Ionicons style={styles.icon} name="mail"/>
+                      <Ionicons style={styles.icon} name="mail" color="black"/>
                           <TextInput  returnKeytype='next'
                             placeholder="E-mail"
                             style={styles.input} 
@@ -75,8 +75,9 @@ return(
                     </View>
 
                     <View style={styles.loginInput}>
-                      <Ionicons style={styles.icon} name="lock-closed"/>
+                      <Ionicons style={styles.icon} name="lock-closed" color="black"/>
                           <TextInput  
+                          
                             returnKeytype='next' 
                             placeholder="Password"  
                             secureTextEntry={passwordVisibility}
@@ -84,14 +85,14 @@ return(
                             placeholderTextColor='black'
                             value={password}
                             onChangeText={text => setPassword(text)}/>
-                      <Ionicons style={styles.icon2} name={rightIcon} 
+                      <Ionicons style={styles.icon2} color="black" name={rightIcon} 
                         size={26} onPress={handlePasswordVisibility}/>
 
                     </View>
 
 
                     <View style={styles.textContainer}>
-                      <Text onPress={()=>{navigation.navigate('forget')}}>Forget password?</Text>
+                      <Text style={styles.fpText} onPress={()=>{navigation.navigate('forget')}}>Forget password?</Text>
                     </View>
         
                     <View style={styles.buttonContainer}> 
@@ -108,7 +109,7 @@ return(
 
                   <View style={styles.socialMediaLogin}>
                         <View style={styles.textContainer}>
-                          <Text>Or SignUp with</Text>
+                          <Text style={{color:'black'}}>Or SignUp with</Text>
                         </View>
 
                     <View style={styles.socialMediaButtons}>
@@ -158,6 +159,9 @@ const styles=StyleSheet.create({
     fontSize:20,
     color:'black',
     fontWeight:'bold',
+},
+fpText:{
+  color:'black'
 },
   headerText1:{
     fontSize:15,
@@ -215,6 +219,7 @@ icon2:{
         flex: 1,
         padding: 10,
         marginLeft: 20,
+        color:'black'
 },
       buttonContainer:{
         width:'100%',

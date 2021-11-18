@@ -163,12 +163,14 @@ const styles = StyleSheet.create({
   profileText: {
     marginTop: 10,
     marginLeft: 10,
+    color:'black'
   },
   userText: {
     fontWeight: "bold",
     fontSize: 20,
     textTransform: "capitalize",
     textAlign: "center",
+    color:'black'
   },
   userTextSubtitle: {
     fontSize: 11,

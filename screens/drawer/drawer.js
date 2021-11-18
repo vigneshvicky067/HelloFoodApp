@@ -61,11 +61,11 @@ const DrawerScreen=props=>{
         <View style={{padding: 20, borderTopWidth: 1, borderTopColor: '#ccc'}}>
           <TouchableOpacity onPress={() => {}} style={{paddingVertical: 15}}>
             <View style={{flexDirection: 'row', alignItems: 'center'}}>
-              <Ionicons name="share-social" size={22} />
+              <Ionicons name="share-social" size={22} color="black"/>
               <Text
                 style={{
                   fontSize: 15,
-                  
+                  color:'black',
                   marginLeft: 5,
                 }}>
                 Tell a Friend
@@ -74,11 +74,11 @@ const DrawerScreen=props=>{
           </TouchableOpacity>
           <TouchableOpacity onPress={handleSignOut} style={{paddingVertical: 15}}>
             <View style={{flexDirection: 'row', alignItems: 'center'}}>
-              <Ionicons name="exit" size={22} />
+              <Ionicons name="exit" size={22} color="black" />
               <Text
                 style={{
                   fontSize: 15,
-               
+                  color:'black',
                   marginLeft: 5,
                 }}>
                 Sign Out
